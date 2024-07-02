@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de columnas</title>
+    <style>
+      .container,
+      .container-fluid,
+      .container-xxl,
+      .container-xl,
+      .container-lg,
+      .container-md,
+      .container-sm {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+      }
+
+      body {
+        margin: 0 auto;
+      }
+
+      .col-auto {
+        flex: 0 0 auto;
+        width: auto;
+        height: 200px;
+      }
+      .col-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+      }
+      .col-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+      }
+      .col-3 {
+        flex: 0 0 auto;
+        width: 25%;
+      }
+
+      .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+      }
+
+      .col-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+      }
+
+      .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+
+      .col-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+      }
+
+      .col-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+      }
+
+      .col-9 {
+        flex: 0 0 auto;
+        width: 75%;
+      }
+
+      .col-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+      }
+
+      .col-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+      }
+
+      .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Crear un contenedor que tenga 3 columnas y cada columna con una altura de 200px y cada columna con un color diferente -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-auto col-4" style="background-color: aquamarine"></div>
+        <div class="col-auto col-4" style="background-color: gray"></div>
+        <div class="col-auto col-4" style="background-color: greenyellow"></div>
+      </div>
+    </div>
+
+    <!-- Crear un contenedor que tenga 4 columnas y cada columna con una altura de 200px y cada columna con un color diferente -->
+
+    <div class="container row">
+      <div class="col-auto col-3" style="background-color: blue"></div>
+      <div class="col-auto col-3" style="background-color: red"></div>
+      <div class="col-auto col-3" style="background-color: yellow"></div>
+      <div class="col-auto col-3" style="background-color: green"></div>
+    </div>
+
+    <!-- Crear un contenedor que tenga 6 columnas y cada columna con una altura de 200px y cada columna con un color diferente -->
+
+    <div class="container row">
+      <div class="col-auto col-2" style="background-color: plum"></div>
+      <div class="col-auto col-2" style="background-color: peachpuff"></div>
+      <div class="col-auto col-2" style="background-color: blueviolet"></div>
+      <div class="col-auto col-2" style="background-color: papayawhip"></div>
+      <div class="col-auto col-2" style="background-color: pink"></div>
+      <div class="col-auto col-2" style="background-color: purple"></div>
+    </div>
+
+    <!-- Crear un contenedor que tenga 2 columnas y cada columna con una altura de 200px y cada columna con un color diferente -->
+
+    <div class="container row">
+      <div class="col-auto col-6" style="background-color: blue"></div>
+      <div class="col-auto col-6" style="background-color: red"></div>
+    </div>
+  </body>
+</html>

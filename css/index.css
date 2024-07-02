@@ -1,0 +1,35 @@
+ /* Aqui va el css de la pagina */
+ header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    padding-top: 10px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#descripcionPrincipal{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #69b7b6;
+}
+.parrafo{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+/*Aqui quiero que se acomoden de forma horizontal los elementos*/
+  .contenedor{
+    display: flex;
+  }
+
+  
